@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Designing Education For Justice</title>
+<meta name="description" content="Designing Education For Justice, providing tools and opportunities for educators and professionals to engage in reflection and action towards equity & justice.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="defj.css"></head>
+<body>
+
+<input type="Submit" id=mySubmit disabled/>
+<header class="home"><h1><a href="index.html">Designing Education For Justice</a></h1></header>
+
+<nav><ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="tools.html">Design Tools</a></li>
+  <li><a href="events.html">Design Events</a></li>
+  <li><a href="external.html">External Resources</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<div id="wrapper">
+<main>
+  <h1>Contact Us</h1>
+<div class="contacthero"> </div>
+<div class= "space"></div>
+<div id="form">
+  <form method="post" action="https://webdevbasics.net/scripts/defj.php">
+      <label for="myName">Name:</label>
+      <input type="text" name="myName" id="myName" required>
+      <label for="userType">User Type:</label>
+      <div>
+          <label class="radio-inline">
+             <input type="radio" name="userType" id="private" value="option1" checked> Private
+          </label>
+          <label class="radio-inline">
+             <input type="radio" name="userType" id="commercial" value="option2"> Commercial
+          </label>
+          <label class="radio-inline">
+             <input type="radio" name="userType" id="ngo" value="option3"> Non-Profit Organization
+          </label>
+      </div>
+
+      <label for="myEmail">E-mail:</label>
+      <input type="text" name="myEmail" id="myEmail" required></input>
+      <label for="myRefer">How did you hear about us?</label>
+      <div>
+        <select name="referral", id="myRefer" required>
+          <option value="Google">Google</option>
+          <option value="Bing">Bing</option>
+          <option value="Facebook">Facebook</option>
+          <option value="Friend">Friend</option>
+          <option value="Radio Ad">Radio Ad</option>
+          <option value="Other">Other</option>
+        </select>
+
+     </div>
+     <label for="preferredMedium">Preferred Interacting Medium</label>
+     <div>
+       <label class="checkbox-inline">
+       In-Person<input type="checkbox" id="inPerson" value="In-Person" name="preferred">
+       </label>
+       <label class="checkbox-inline">
+       Xoom<input type="checkbox" id="xoom" value="Xoom" name="preferred">
+       </label>
+       <label class="checkbox-inline">
+       Teams<input type="checkbox" id="teams" value="Teams" name="preferred">
+       </label>
+       <label class="checkbox-inline">
+       Skype<input type="checkbox" id="skype" value="Skype" name="preferred">
+       </label>
+       <label class="checkbox-inline">
+       Email<input type="checkbox" id="email" value="Email" name="preferred">
+       </label>
+     </div>
+
+      <label for="myComments">Comments:</label>
+      <textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+
+      <input type="Submit" id=mySubmit value="Send Now">
+    </form>
+</div>
+<h2 id="messageHead"></h2>
+<p id="message"></p>
+<div class= "space"></div>
+<div class="hero3"></div>
+</main>
+
+<footer>
+  Copyright © 2021 Designing Education For Justice -- Nikeetha Farfan Dsouza
+  <a href="mailto:admin@defj.org?subject=Feedback">admin@defj.org</a>
+</footer>
+</div>
+<script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Designing Education For Justice</title>
+<meta name="description" content="Designing Education For Justice, providing tools and opportunities for educators and professionals to engage in reflection and action towards equity & justice.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="defj.css"></head>
+<body>
+
+<header class="home"><h1><a href="index.html">Designing Education For Justice</a></h1></header>
+
+<nav><ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="tools.html">Design Tools</a></li>
+  <li><a href="events.html">Design Events</a></li>
+  <li><a href="external.html">External Resources</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<div id="wrapper">
+<main>
+  <h1>Chapter 2 + 3 Individual Case Project</h1>
+<div class="contacthero"> </div>
+<div class= "space"></div>
+<div>
+<h3>Enter a Number, Click the button to display the square root of the number</h3>
+
+   <input type="number" id="inputNum" />
+
+  <button onclick="myFunction()">Square it</button>
+
+  <p id="demo"></p>
+
+  <h3>Enter "42"</h3>
+
+
+    <button onclick="my2ndFunction()">check if 42</button>
+<p id="demo2"></p>
+
+
+
+   </label>
+</div>
+
+<h2 id="messageHead"></h2>
+<p id="message"></p>
+<div class= "space"></div>
+<div class="hero3"></div>
+</main>
+
+<footer>
+  Copyright © 2021 Designing Education For Justice -- Nikeetha Farfan Dsouza
+  <a href="mailto:admin@defj.org?subject=Feedback">admin@defj.org</a>
+</footer>
+</div>
+<script>
+function myFunction() {
+  var sroot = document.getElementById("inputNum");
+  document.getElementById("demo").innerHTML = Math.sqrt([sroot.value]);
+}
+function my2ndFunction() {
+  var everything = document.getElementById("inputNum");
+  if (everything.value === "42") {
+    document.getElementById("demo2").innerHTML = " is the answer to life, the universe and everything. ";
+  } else {
+    document.getElementById("demo2").innerHTML = " that's not 42. ";
+  }
+}
+</script>
+</body>
+</html>
