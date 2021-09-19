@@ -329,7 +329,7 @@ footer a:hover { color: #6a1b9a; }
 }
 
 @media only screen and (min-width: 1024px) {
-  header{font-size: 120%;}
+  header{font-size: 100%;}
   .home{height: 50vh;
   padding-top: 5em;}
 
